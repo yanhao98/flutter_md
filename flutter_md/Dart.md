@@ -312,7 +312,7 @@ print(clonedArr);
 ```dart
 class Manager {
   // 工厂模式
-  factory Manager() =>_getInstance()
+  factory Manager() =>_getInstance();
   static Manager get instance => _getInstance();
   static Manager _instance;
   Manager._internal() {
